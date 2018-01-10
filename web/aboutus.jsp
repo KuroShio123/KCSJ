@@ -7,108 +7,106 @@
     <link rel="stylesheet" href="css/aboutus_style.css">
     <link rel="stylesheet" href="css/nav_left.css">
     <script>
-        function show(){
-            document.getElementById("overDiv").style.display = "block" ;
-            document.getElementById("hsDiv").style.display = "block" ;
-        }
-        function closeDiv(){
-            document.getElementById("overDiv").style.display = "none" ;
-            document.getElementById("hsDiv").style.display = "none" ;
-        }
-    </script>
+    function show(){
+        document.getElementById("overDiv").style.display = "block" ;
+        document.getElementById("hsDiv").style.display = "block" ;
+    }
+    function closeDiv(){
+        document.getElementById("overDiv").style.display = "none" ;
+        document.getElementById("hsDiv").style.display = "none" ;
+    }
+</script>
     <style>
         #overDiv{
-            background-color:#000;
-            width: 100%;
-            height: 100%;
-            left: 0;
-            top: 0; /*FF IE7*/
-            filter: alpha(opacity = 65); /*IE*/
-            opacity: 0.65; /*FF*/
-            z-index: 110;
-            position: fixed !important; /*FF IE7*/
-            position: absolute; /*IE6*/
-        }
-        #hsDiv{
-            background:#fff;
-            z-index: 120;
-            width: 500px;
-            height: 400px;
-            left: 43%; /*FF IE7*/
-            top: 37%; /*FF IE7*/
-            margin-left: -150px !important; /*FF IE7 该值为本身宽的一半 */
-            margin-top: -60px !important; /*FF IE7 该值为本身高的一半*/
-            margin-top: 0px;
-            position: fixed !important; /*FF IE7*/
-            position: absolute; /*IE6*/
-        }
-        #closediv{
-            margin-left: 483.5px;
-        }
-        #dlTitle{
-            width:400px;
-            height: 30px;
-            font-size:18px;
-            margin: auto auto auto 220px;
-        }
-        #xiugai tb{
-            width: 500px;
-            height:auto;
-            border: 0px;
-            margin-top: 5px;
-        }
-        #xiugaitb .xiugaitd1,#xiugaitb .xiugaitd3
-        {
-            height:35px;
-        }
-        #xiugaitb .xiugaitd1
-        {
-            font-size:18px;
-            color: #888888;
-            vertical-align: middle;
-            padding-left: 40px;
-        }
-        #lxiugaitb .xiugaitd3{
-            font-size:17px;
-            vertical-align: middle;
-            padding-left: 5px;
-
-
-        }
-        #xiugaitb .xiugaitd2
-        {
-            height:auto;
-        }
-        #xiugaitb td a{
-            float: right;
-        }
-        .xiugaitd2 input{
-            width:300px;
-            height: 32px;
-        }
-        #yes{
-            background-color: #316a91;
-            color: white;
-            margin-left: 130px;
-            margin-top: 20px;
-            border-radius: 5px;
-        }
-        #yes:hover{
-            background-color: #629feb;
-        }
-        #no{
-            background-color: #316a91;
-            color: white;
-            margin-left: 70px;
-            margin-top: 20px;
-            border-radius: 5px;
-        }
-        #no:hover{
-            background-color: #629feb;
-        }
+    background-color:#000;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0; /*FF IE7*/
+    filter: alpha(opacity = 65); /*IE*/
+    opacity: 0.65; /*FF*/
+    z-index: 110;
+    position: fixed !important; /*FF IE7*/
+    position: absolute; /*IE6*/
+    }
+    #hsDiv{
+    background:#fff;
+    z-index: 120;
+    width: 500px;
+    height: 400px;
+    left: 43%; /*FF IE7*/
+    top: 37%; /*FF IE7*/
+    margin-left: -150px !important; /*FF IE7 该值为本身宽的一半 */
+    margin-top: -60px !important; /*FF IE7 该值为本身高的一半*/
+    margin-top: 0px;
+    position: fixed !important; /*FF IE7*/
+    position: absolute; /*IE6*/
+    }
+    #closediv{
+    margin-left: 483.5px;
+    }
+    #dlTitle{
+    width:400px;
+    height: 30px;
+    font-size:18px;
+    margin: auto auto auto 220px;
+    }
+    #xiugaitb{
+    width: 500px;
+    height:auto;
+    border: 0px;
+    margin-top: 5px;
+    }
+    #xiugaitb .xiugaitd1,#xiugaitb .xiugaitd3
+    {
+    height:35px;
+    }
+    #xiugaitb .xiugaitd1
+    {
+    font-size:18px;
+    color: #888888;
+    vertical-align: middle;
+    padding-left: 40px;
+    }
+    #lxiugaitb .xiugaitd3{
+    font-size:17px;
+    vertical-align: middle;
+    padding-left: 5px;
+    }
+    #xiugaitb .xiugaitd2
+    {
+    height:auto;
+    }
+    #xiugaitb td a{
+    float: right;
+    }
+    .xiugaitd2 input{
+    width:300px;
+    height: 32px;
+    }
+    #yes{
+    background-color: #316a91;
+    color: white;
+    margin-left: 130px;
+    margin-top: 20px;
+    border-radius: 5px;
+    }
+    #yes:hover{
+    background-color: #629feb;
+    }
+    #no{
+    background-color: #316a91;
+    color: white;
+    margin-left: 70px;
+    margin-top: 20px;
+    border-radius: 5px;
+    }
+    #no:hover{
+    background-color: #629feb;
+    }
     </style>
 
-    <%@ include file="head.txt" %>
+    <%@ include file="head.jsp" %>
     <div class="content">
         <div class="userinfo-wrap">
             <div class="user-info">
@@ -197,10 +195,10 @@
                     <td class="xiugaitd2"><input type="text" name="" value=""></td>
                 </tr>
             </table>
-                <div>
-                    <input type="button" value="确定" style="width: 70px;height: 30px" id="yes">
-                    <input type="submit" value="取消" style="width: 70px;height: 30px" id="no">
-                </div>
+        </div>
+        <div>
+            <input type="button" value="确定" style="width: 70px;height: 30px" id="yes">
+            <input type="button" value="取消" style="width: 70px;height: 30px" id="no">
         </div>
     </div>
     <div id="overDiv" style="display:none;"></div>
