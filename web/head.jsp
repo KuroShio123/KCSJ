@@ -42,7 +42,7 @@
     <!-- 头部信息条 -->
     <div class="info">
         <div class="logo">
-            <img src="images/logo.png" height="90x">
+            <img src="images/logo.png" height="80x">
         </div>
         <div class="search">
             <form action="post">
@@ -56,7 +56,7 @@
         </div>
     </div>
     <!--侧面导航栏-->
-    <div class="nav-main" style="	position: fixed;top: 90px;">
+    <div class="nav-main" style="	position: fixed;top: 80px;">
         <div class="nav-box">
             <div class="nav">
                 <ul class="nav-ul">
