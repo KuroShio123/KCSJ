@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/nav_left.css">
     <link rel="stylesheet" href="css/works_style.css">
 
-    <%@ include file="head.txt" %>
+    <%@ include file="head.jsp" %>
     <!-- 轮播图 -->
     <script type="text/javascript" src="js/ZoomPic.js"></script>
     <script type="text/javascript">

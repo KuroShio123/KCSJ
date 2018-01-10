@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/nav_left.css">
     <link rel="stylesheet" href="css/class_style.css">
 
-    <%@ include file="head.txt" %>
+    <%@ include file="head.jsp" %>
     <div class="content">
         <div class="container">
             <div class="class-module">

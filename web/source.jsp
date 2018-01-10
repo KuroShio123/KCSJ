@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/nav_left.css">
     <link rel="stylesheet" href="css/source_style.css">
 
-    <%@ include file="head.txt" %>
+    <%@ include file="head.jsp" %>
     <script type="text/javascript" src="js/showlist.js"></script>
     <div class="content">
         <div class="main-in content-in">

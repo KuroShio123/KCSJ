@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/index_style.css">
   <link rel="stylesheet" href="css/nav_left.css">
 
-  <%@ include file="head.txt" %>
+  <%@ include file="head.jsp" %>
   <div class="content">
 
 
@@ -183,20 +183,6 @@
               <span class="badge pull-right moduleName">3</span>
           </a>
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </div>
 </div>
 </body>
 </html>

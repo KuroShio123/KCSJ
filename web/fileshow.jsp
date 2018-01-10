@@ -6,8 +6,7 @@
     <title>文件展示</title>
     <link rel="stylesheet" href="css/nav_left.css">
     <link rel="stylesheet" href="css/fileshow_style.css">
-
-    <%@ include file="head.txt" %>
+    <%@ include file="head.jsp" %>
     <div class="content">
         <div class="choiceClass">
             <form action="" method="post">

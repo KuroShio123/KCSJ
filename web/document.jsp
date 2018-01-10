@@ -81,7 +81,7 @@
     </style>
 
 
-    <%@ include file="head.txt" %>
+    <%@ include file="head.jsp" %>
     <div class="content">
         <div class="classification">
             <ul>

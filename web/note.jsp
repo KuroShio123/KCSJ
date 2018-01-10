@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/nav_left.css">
     <link rel="stylesheet" href="css/note_style.css">
 
-    <%@ include file="head.txt" %>
+    <%@ include file="head.jsp" %>
     <div class="content">
         <div class="note-catalog">
             <div class="list">
